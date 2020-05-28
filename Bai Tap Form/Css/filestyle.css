@@ -1,0 +1,93 @@
+/* CSS Document */
+#wrapper {
+  width: 1500px;
+  /* height: 3000px; */
+  /*	background: blue;*/
+  margin: 0 auto;
+}
+#wrapper #header {
+  width: 1500px;
+  height: 160px;
+  /*	background: red;*/
+}
+#wrapper #header .logo {
+  width: 500px;
+  height: 160px;
+  /* background: blue;*/
+  float: left;
+}
+#wrapper #header .shape {
+  width: 400px;
+  height: 160px;
+  /* background: yellow;*/
+  float: left;
+}
+#wrapper #header .info-bar {
+  width: 500px;
+  height: 160px;
+  /*	background: green;*/
+  float: right;
+}
+#wrapper #overview {
+  /*	background: green;*/
+  width: 1500px;
+  height: 500px;
+  margin-top: 60px;
+  position: relative;
+}
+.box {
+  position: absolute;
+  top: -26px;
+  display: block;
+  margin-left: 560px;
+  z-index: 1;
+}
+.overview {
+  position: absolute;
+  width: 1300px;
+  height: auto;
+  top: 20px;
+  margin-left: 100px;
+}
+.TEXT1 {
+  position: absolute;
+  font-family: Futura;
+  color: white;
+  margin-left: 650px;
+  z-index: 2;
+  font-size: 30px;
+  top: -30px;
+}
+#wrapper #about-me {
+  width: 1500px;
+  height: 300px;
+  /*	background: black;*/
+  margin-top: 130px;
+  display: inline-flex;
+  position: relative;
+}
+#wrapper #about-me #info-box {
+  width: 500px;
+  height: 250px;
+  background: rgb(103, 19, 23);
+  margin-left: 4px;
+  margin-top: 25px;
+  position: absolute;
+  left: 600px;
+}
+#my-works {
+  background-image: url("../img/background.png");
+  height: 1000px;
+  width: auto;
+  margin-top: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#footer {
+  background-image: url("../img/BG.png");
+  height: auto;
+  width: auto;
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: flex;
+}
